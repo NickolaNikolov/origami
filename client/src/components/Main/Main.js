@@ -8,14 +8,15 @@ const Main = ({
       <main className="main-container">
           <h1>Soooooooooome heading</h1>
 
-        <div className="posts">
-            {posts.map(x =>
-               <Post key={x.id}
-                     content={x.content} 
+          <div className="posts">
+              {posts.map(x => 
+                  <Post 
+                     key={x.id}
+                     content={x.content}
                      author={x.author}
-                />
-             )}
-        </div>
+                  />
+              )}
+          </div>
     
       </main>
     
