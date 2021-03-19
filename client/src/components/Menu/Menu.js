@@ -17,6 +17,7 @@ const menuItems = [
     {id: 11, text: 'Going to 11'},
 ];
 
+
 const Menu = ({onMenuItemClick}) => {
     const [currentItem, setCurrentItem] = useState();
 
