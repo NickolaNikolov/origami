@@ -64,8 +64,8 @@ class App extends Component {
         <Switch>
             <Route path="/" exact>
                 <Main posts={this.getPosts()}/>
-            </Route>
-            <Route path="/about" component={About} />
+            </Route> 
+            <Route path="/about/:name" component={About} />
             <Route path="/contact-us" component={ContactUs} />
             <Route render={() => <h1>Error Page</h1>} />
         </Switch>        
